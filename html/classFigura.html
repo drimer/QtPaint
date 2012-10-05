@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>Referencia de la Clase Figura</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Generado por Doxygen 1.7.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&nbsp;principal</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li><a href="dirs.html"><span>Directorios</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&nbsp;de&nbsp;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&nbsp;de&nbsp;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&nbsp;de&nbsp;la&nbsp;clase</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="header">
+  <div class="headertitle">
+<h1>Referencia de la Clase Figura</h1>  </div>
+</div>
+<div class="contents">
+<!-- doxytag: class="Figura" --><div class="dynheader">
+Diagrama de herencias de Figura</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classFigura.png" usemap="#Figura_map" alt=""/>
+  <map id="Figura_map" name="Figura_map">
+<area href="classElipse.html" alt="Elipse" shape="rect" coords="0,56,75,80"/>
+<area href="classLinea.html" alt="Linea" shape="rect" coords="85,56,160,80"/>
+<area href="classPolilinea.html" alt="Polilinea" shape="rect" coords="170,56,245,80"/>
+<area href="classRectangulo.html" alt="Rectangulo" shape="rect" coords="255,56,330,80"/>
+<area href="classTexto.html" alt="Texto" shape="rect" coords="340,56,415,80"/>
+</map>
+</div>
+
+<p><a href="classFigura-members.html">Lista de todos los miembros.</a></p>
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">paint(win)</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="amgrp3766a43de3fbe67cf9df7b23800bf7e2"></a>dibuja la figura en la posiciÃ³n y con los atributos correspondientes.</p>
+<dl><dt><b>Parámetros:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>win</em>&nbsp;</td><td>lugar donde queremos pintar la figura. </td></tr>
+  </table>
+  </dd>
+</dl>
+</div></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a33b7eba9f150d993c867dffe76c9389d"></a><!-- doxytag: member="Figura::paint" ref="a33b7eba9f150d993c867dffe76c9389d" args="(QPaintDevice *win)=0" -->
+virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><b>paint</b> (QPaintDevice *win)=0</td></tr>
+<tr><td colspan="2"><div class="groupHeader">getTipoFigura()</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="amgrpa3b5095a8862d3418e5fe9c0f90aded4"></a>devuelve quÃ© tipo de figura es.</p>
+<dl class="return"><dt><b>Devuelve:</b></dt><dd>una cadena con el tipo de figura. </dd></dl>
+</div></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afdbbc99e1d2917533925bfa475b65d37"></a><!-- doxytag: member="Figura::getTipoFigura" ref="afdbbc99e1d2917533925bfa475b65d37" args="()=0" -->
+virtual string&nbsp;</td><td class="memItemRight" valign="bottom"><b>getTipoFigura</b> ()=0</td></tr>
+<tr><td colspan="2"><div class="groupHeader">string str()</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="amgrp2ada79313e02986a3b425bbe992ecb41"></a>devuelve una cadena de caracteres que contiene la informaciÃ³n(atributos) referente a la figura. de figura se trata.</p>
+<dl class="return"><dt><b>Devuelve:</b></dt><dd>cadena de caracteres que guarda la informacion. </dd></dl>
+</div></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a731c2821dd05d46e64e9c1e0fa73356b"></a><!-- doxytag: member="Figura::str" ref="a731c2821dd05d46e64e9c1e0fa73356b" args="()=0" -->
+virtual string&nbsp;</td><td class="memItemRight" valign="bottom"><b>str</b> ()=0</td></tr>
+</table>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>clases/<a class="el" href="Figura_8h_source.html">Figura.h</a></li>
+</ul>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Archivos</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Generado el Lunes, 9 de Enero de 2012 10:13:31 por&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.1 </small></address>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>Fichero Fuente ui_ventanaPrincipal.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Generado por Doxygen 1.7.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&nbsp;principal</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&nbsp;de&nbsp;archivos</span></a></li>
+    </ul>
+  </div>
+<div class="header">
+  <div class="headertitle">
+<h1>ui_ventanaPrincipal.h</h1>  </div>
+</div>
+<div class="contents">
+<div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/********************************************************************************</span>
+<a name="l00002"></a>00002 <span class="comment">** Form generated from reading UI file &#39;ventanaPrincipal.ui&#39;</span>
+<a name="l00003"></a>00003 <span class="comment">**</span>
+<a name="l00004"></a>00004 <span class="comment">** Created: Fri Dec 30 16:28:25 2011</span>
+<a name="l00005"></a>00005 <span class="comment">**      by: Qt User Interface Compiler version 4.7.0</span>
+<a name="l00006"></a>00006 <span class="comment">**</span>
+<a name="l00007"></a>00007 <span class="comment">** WARNING! All changes made in this file will be lost when recompiling UI file!</span>
+<a name="l00008"></a>00008 <span class="comment">********************************************************************************/</span>
+<a name="l00009"></a>00009 
+<a name="l00010"></a>00010 <span class="preprocessor">#ifndef UI_VENTANAPRINCIPAL_H</span>
+<a name="l00011"></a>00011 <span class="preprocessor"></span><span class="preprocessor">#define UI_VENTANAPRINCIPAL_H</span>
+<a name="l00012"></a>00012 <span class="preprocessor"></span>
+<a name="l00013"></a>00013 <span class="preprocessor">#include &lt;QtCore/QVariant&gt;</span>
+<a name="l00014"></a>00014 <span class="preprocessor">#include &lt;QtGui/QAction&gt;</span>
+<a name="l00015"></a>00015 <span class="preprocessor">#include &lt;QtGui/QApplication&gt;</span>
+<a name="l00016"></a>00016 <span class="preprocessor">#include &lt;QtGui/QButtonGroup&gt;</span>
+<a name="l00017"></a>00017 <span class="preprocessor">#include &lt;QtGui/QHeaderView&gt;</span>
+<a name="l00018"></a>00018 <span class="preprocessor">#include &lt;QtGui/QMainWindow&gt;</span>
+<a name="l00019"></a>00019 <span class="preprocessor">#include &lt;QtGui/QMenu&gt;</span>
+<a name="l00020"></a>00020 <span class="preprocessor">#include &lt;QtGui/QMenuBar&gt;</span>
+<a name="l00021"></a>00021 <span class="preprocessor">#include &lt;QtGui/QStatusBar&gt;</span>
+<a name="l00022"></a>00022 <span class="preprocessor">#include &lt;QtGui/QToolBar&gt;</span>
+<a name="l00023"></a>00023 <span class="preprocessor">#include &quot;lienzo.h&quot;</span>
+<a name="l00024"></a>00024 
+<a name="l00025"></a>00025 QT_BEGIN_NAMESPACE
+<a name="l00026"></a>00026 
+<a name="l00027"></a><a class="code" href="classUi__VentanaPrincipal.html">00027</a> <span class="keyword">class </span><a class="code" href="classUi__VentanaPrincipal.html">Ui_VentanaPrincipal</a>
+<a name="l00028"></a>00028 {
+<a name="l00029"></a>00029 <span class="keyword">public</span>:
+<a name="l00030"></a>00030     Lienzo *lienzo;
+<a name="l00031"></a>00031     QMenuBar *menubar;
+<a name="l00032"></a>00032     QMenu *menuArchivo;
+<a name="l00033"></a>00033     QMenu *menuAyuda;
+<a name="l00034"></a>00034     QMenu *menuEdicion;
+<a name="l00035"></a>00035     QStatusBar *statusbar;
+<a name="l00036"></a>00036     QToolBar *toolBarFiguras;
+<a name="l00037"></a>00037     QToolBar *toolBarPropiedades;
+<a name="l00038"></a>00038     QToolBar *toolBarEdicion;
+<a name="l00039"></a>00039     QToolBar *toolBarTrazo;
+<a name="l00040"></a>00040 
+<a name="l00041"></a>00041     <span class="keywordtype">void</span> setupUi(QMainWindow *<a class="code" href="classVentanaPrincipal.html">VentanaPrincipal</a>)
+<a name="l00042"></a>00042     {
+<a name="l00043"></a>00043         <span class="keywordflow">if</span> (VentanaPrincipal-&gt;objectName().isEmpty())
+<a name="l00044"></a>00044             VentanaPrincipal-&gt;setObjectName(QString::fromUtf8(<span class="stringliteral">&quot;VentanaPrincipal&quot;</span>));
+<a name="l00045"></a>00045         VentanaPrincipal-&gt;resize(800, 600);
+<a name="l00046"></a>00046         lienzo = <span class="keyword">new</span> Lienzo(VentanaPrincipal);
+<a name="l00047"></a>00047         lienzo-&gt;setObjectName(QString::fromUtf8(<span class="stringliteral">&quot;lienzo&quot;</span>));
+<a name="l00048"></a>00048         VentanaPrincipal-&gt;setCentralWidget(lienzo);
+<a name="l00049"></a>00049         menubar = <span class="keyword">new</span> QMenuBar(VentanaPrincipal);
+<a name="l00050"></a>00050         menubar-&gt;setObjectName(QString::fromUtf8(<span class="stringliteral">&quot;menubar&quot;</span>));
+<a name="l00051"></a>00051         menubar-&gt;setGeometry(QRect(0, 0, 800, 25));
+<a name="l00052"></a>00052         menuArchivo = <span class="keyword">new</span> QMenu(menubar);
+<a name="l00053"></a>00053         menuArchivo-&gt;setObjectName(QString::fromUtf8(<span class="stringliteral">&quot;menuArchivo&quot;</span>));
+<a name="l00054"></a>00054         menuAyuda = <span class="keyword">new</span> QMenu(menubar);
+<a name="l00055"></a>00055         menuAyuda-&gt;setObjectName(QString::fromUtf8(<span class="stringliteral">&quot;menuAyuda&quot;</span>));
+<a name="l00056"></a>00056         menuEdicion = <span class="keyword">new</span> QMenu(menubar);
+<a name="l00057"></a>00057         menuEdicion-&gt;setObjectName(QString::fromUtf8(<span class="stringliteral">&quot;menuEdicion&quot;</span>));
+<a name="l00058"></a>00058         VentanaPrincipal-&gt;setMenuBar(menubar);
+<a name="l00059"></a>00059         statusbar = <span class="keyword">new</span> QStatusBar(VentanaPrincipal);
+<a name="l00060"></a>00060         statusbar-&gt;setObjectName(QString::fromUtf8(<span class="stringliteral">&quot;statusbar&quot;</span>));
+<a name="l00061"></a>00061         VentanaPrincipal-&gt;setStatusBar(statusbar);
+<a name="l00062"></a>00062         toolBarFiguras = <span class="keyword">new</span> QToolBar(VentanaPrincipal);
+<a name="l00063"></a>00063         toolBarFiguras-&gt;setObjectName(QString::fromUtf8(<span class="stringliteral">&quot;toolBarFiguras&quot;</span>));
+<a name="l00064"></a>00064         VentanaPrincipal-&gt;addToolBar(Qt::TopToolBarArea, toolBarFiguras);
+<a name="l00065"></a>00065         toolBarPropiedades = <span class="keyword">new</span> QToolBar(VentanaPrincipal);
+<a name="l00066"></a>00066         toolBarPropiedades-&gt;setObjectName(QString::fromUtf8(<span class="stringliteral">&quot;toolBarPropiedades&quot;</span>));
+<a name="l00067"></a>00067         VentanaPrincipal-&gt;addToolBar(Qt::TopToolBarArea, toolBarPropiedades);
+<a name="l00068"></a>00068         toolBarEdicion = <span class="keyword">new</span> QToolBar(VentanaPrincipal);
+<a name="l00069"></a>00069         toolBarEdicion-&gt;setObjectName(QString::fromUtf8(<span class="stringliteral">&quot;toolBarEdicion&quot;</span>));
+<a name="l00070"></a>00070         VentanaPrincipal-&gt;addToolBar(Qt::TopToolBarArea, toolBarEdicion);
+<a name="l00071"></a>00071         toolBarTrazo = <span class="keyword">new</span> QToolBar(VentanaPrincipal);
+<a name="l00072"></a>00072         toolBarTrazo-&gt;setObjectName(QString::fromUtf8(<span class="stringliteral">&quot;toolBarTrazo&quot;</span>));
+<a name="l00073"></a>00073         VentanaPrincipal-&gt;addToolBar(Qt::TopToolBarArea, toolBarTrazo);
+<a name="l00074"></a>00074 
+<a name="l00075"></a>00075         menubar-&gt;addAction(menuArchivo-&gt;menuAction());
+<a name="l00076"></a>00076         menubar-&gt;addAction(menuEdicion-&gt;menuAction());
+<a name="l00077"></a>00077         menubar-&gt;addAction(menuAyuda-&gt;menuAction());
+<a name="l00078"></a>00078 
+<a name="l00079"></a>00079         retranslateUi(VentanaPrincipal);
+<a name="l00080"></a>00080 
+<a name="l00081"></a>00081         QMetaObject::connectSlotsByName(VentanaPrincipal);
+<a name="l00082"></a>00082     } <span class="comment">// setupUi</span>
+<a name="l00083"></a>00083 
+<a name="l00084"></a>00084     <span class="keywordtype">void</span> retranslateUi(QMainWindow *VentanaPrincipal)
+<a name="l00085"></a>00085     {
+<a name="l00086"></a>00086         VentanaPrincipal-&gt;setWindowTitle(QApplication::translate(<span class="stringliteral">&quot;VentanaPrincipal&quot;</span>, <span class="stringliteral">&quot;MainWindow&quot;</span>, 0, QApplication::UnicodeUTF8));
+<a name="l00087"></a>00087         menuArchivo-&gt;setTitle(QApplication::translate(<span class="stringliteral">&quot;VentanaPrincipal&quot;</span>, <span class="stringliteral">&quot;Archivo&quot;</span>, 0, QApplication::UnicodeUTF8));
+<a name="l00088"></a>00088         menuAyuda-&gt;setTitle(QApplication::translate(<span class="stringliteral">&quot;VentanaPrincipal&quot;</span>, <span class="stringliteral">&quot;Ayuda&quot;</span>, 0, QApplication::UnicodeUTF8));
+<a name="l00089"></a>00089         menuEdicion-&gt;setTitle(QApplication::translate(<span class="stringliteral">&quot;VentanaPrincipal&quot;</span>, <span class="stringliteral">&quot;Edici\303\263n&quot;</span>, 0, QApplication::UnicodeUTF8));
+<a name="l00090"></a>00090         toolBarFiguras-&gt;setWindowTitle(QApplication::translate(<span class="stringliteral">&quot;VentanaPrincipal&quot;</span>, <span class="stringliteral">&quot;toolBar&quot;</span>, 0, QApplication::UnicodeUTF8));
+<a name="l00091"></a>00091         toolBarPropiedades-&gt;setWindowTitle(QApplication::translate(<span class="stringliteral">&quot;VentanaPrincipal&quot;</span>, <span class="stringliteral">&quot;toolBar&quot;</span>, 0, QApplication::UnicodeUTF8));
+<a name="l00092"></a>00092         toolBarEdicion-&gt;setWindowTitle(QApplication::translate(<span class="stringliteral">&quot;VentanaPrincipal&quot;</span>, <span class="stringliteral">&quot;toolBar&quot;</span>, 0, QApplication::UnicodeUTF8));
+<a name="l00093"></a>00093         toolBarTrazo-&gt;setWindowTitle(QApplication::translate(<span class="stringliteral">&quot;VentanaPrincipal&quot;</span>, <span class="stringliteral">&quot;toolBar&quot;</span>, 0, QApplication::UnicodeUTF8));
+<a name="l00094"></a>00094     } <span class="comment">// retranslateUi</span>
+<a name="l00095"></a>00095 
+<a name="l00096"></a>00096 };
+<a name="l00097"></a>00097 
+<a name="l00098"></a>00098 <span class="keyword">namespace </span>Ui {
+<a name="l00099"></a><a class="code" href="classUi_1_1VentanaPrincipal.html">00099</a>     <span class="keyword">class </span><a class="code" href="classUi_1_1VentanaPrincipal.html">VentanaPrincipal</a>: <span class="keyword">public</span> <a class="code" href="classUi__VentanaPrincipal.html">Ui_VentanaPrincipal</a> {};
+<a name="l00100"></a>00100 } <span class="comment">// namespace Ui</span>
+<a name="l00101"></a>00101 
+<a name="l00102"></a>00102 QT_END_NAMESPACE
+<a name="l00103"></a>00103 
+<a name="l00104"></a>00104 <span class="preprocessor">#endif // UI_VENTANAPRINCIPAL_H</span>
+</pre></div></div>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Archivos</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Generado el Viernes, 30 de Diciembre de 2011 16:48:16 por&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.1 </small></address>
+</body>
+</html>
